@@ -1,0 +1,59 @@
+/*Reglas para el menú*/
+
+nav{
+	height: auto;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+	background: #00092C;	
+	position: fixed;
+	text-decoration: none;
+}
+
+.karate{
+	position: absolute;
+	list-style: none;
+	width: 5rem;
+	text-decoration: none;
+	margin: auto;
+	padding: 1%;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+	z-index: 13;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 4px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	font-size: 100%;
+	padding: 0.2rem 1rem;
+}
+
+
+
+nav ul li:hover, .active{
+	color: #FF5F00;
+	cursor: pointer;
+}
+
+.bot{
+	font-size: 25px;
+	color: white;
+	z-index: 11;
+	float: right;
+	margin-top: -0.01em;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#toch{
+	display: none;
+}

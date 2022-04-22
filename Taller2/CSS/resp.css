@@ -1,0 +1,89 @@
+@media (max-width: 950px){
+
+	.karate{
+		font-size: 28px;
+
+	}
+
+	.bot{
+		display: block;
+		line-height: 80px;
+		font-size: 20px;
+	}
+
+	nav{
+		height: 80px;
+	}
+
+	ul{
+		position: fixed;
+		width: 100%;
+		height: calc(100% - 80px);
+		background: #00092C;
+		top: 80px;
+		left: -100%;
+		transition: all 0.5s;
+	}
+
+	nav ul li{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 2.5rem 0;
+		line-height: 30px;
+	}
+
+	nav ul li{
+		font-size: 1.8em;
+	}
+
+	#toch:checked ~ ul{
+		left: 0;
+	}
+
+
+	/*Reglas del form*/
+
+	section{
+		flex-direction: column-reverse;
+		font-size: larger;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.intro{
+		width: 80vw;
+		margin: 10% 0;
+	}
+
+	.intro aside{
+		margin: 0;
+	}
+
+	.intro p{
+		width: 78vw;
+		margin: 0;
+		margin-bottom: 2%;
+	}
+
+	.inscrib{
+		width: 92vw;
+	}
+	/*Reglas para el formulario*/
+	form{
+		width: 90vw;
+	}
+	
+	fieldset{
+		background-color: white; 
+		width: 89vw;
+		margin: auto;
+		padding: auto;
+	}
+
+	/*Reglas form*/
+	.redes{
+		width: 40%;
+	}
+}

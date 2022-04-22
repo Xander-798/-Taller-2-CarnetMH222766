@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;     
+    margin: 0; 
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+
+.titl{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1rem 0;
+}
+
+section{
+    margin-top: 0.2em; 
+    display: flex;
+    padding: auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 44vw;
+    margin: auto 0.5rem;
+}
+
+.intro{
+    width: 35vw;
+}
+
+.intro aside{
+    margin-top: -19.5em;
+}
+
+.intro p{
+    font-size: 125%;
+    margin-left: 10%;
+    width: 60%;
+    margin-bottom: 4%;
+}
+
+.inscrib{
+    width: 55vw;
+}
+/*Reglas para el formulario*/
+form{
+    width: auto;
+    font-size: 120%;
+}
+
+fieldset{
+    background-color: white; 
+    width: 49vw;
+}
+
+label{
+    display: block;
+    width: auto;
+    margin: 0.5em 0 0 0;
+}
+
+input, select, textarea{
+    margin: 0.5rem 0;
+    padding: 1%;
+}
+
+.tip1{
+    width: 98%;
+}
+
+.tip2{
+    display: inline-flex;
+}
+
+.tip2 p{
+    margin: 0 4em 0 0;
+}
+
+.registrarse{
+    display: block;
+    width: 45%;
+    padding: 1%;
+    float: right;
+    background-color: #b9b6b5;
+    border: none;
+}
+
+.registrarse:hover{
+    background-color: #FF5F00;
+    color: #fff;
+}
+
+/*Reglas para el footer*/
+
+footer{
+    padding: 3%;
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    color: #B20600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.redes{
+    width: 30%;
+}
+
+.redes i{
+    font-size: 2em;
+}
+
+.redes i:hover{
+    cursor: pointer;
+}
+
+.redes, i{
+    margin: 0 2%;
+}
+
+footer{
+    margin: 0 0.2%;
+}
+
+footer h3{
+    text-align: center;
+    font-size: 110%;
+    margin: 0 0.5em;
+}
